@@ -1,0 +1,120 @@
+/* Global */
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(192, 240, 229);
+    font-family: 'Redressed', cursive;
+}
+h2,h3{
+    text-align: center;
+}
+h3{
+    font-size: 0.600em;
+    color: #228c9e;
+    margin: 1.000em 0 1.000em 0;
+}
+p{
+    line-height: 1.000em;
+}
+/* Nav */
+nav{
+    background-color: #f1c6c6;
+    padding:0.625em;
+    display:flex;
+    justify-content: space-between;
+}
+nav a{
+    color: rgb(204, 88, 10);
+    font-size: 01.000em;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Header */
+
+header{
+    height: 400px;
+    background-image:url(locationImage.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(204, 88, 10);
+}
+.btn{
+    background-color: #0e7385;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Services Section */
+.container{
+    background-color: white;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon-container{
+    background-color: #abe3ec;    
+    width: 75px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.icon-container i{
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.service-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+form{
+    background-color: #abe3ec;
+    color: white;
+    max-width: 700px;
+    margin:0 auto;/* top bottom*/
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;    
+     
+}
+input{
+    width: 80%;
+    height: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+}
+label{
+    font-size: 18px;
+}
+td{
+    text-align: center;
+}
+img{
+    height: 250px;
+}
+
